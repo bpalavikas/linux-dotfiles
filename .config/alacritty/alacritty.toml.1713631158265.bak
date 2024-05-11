@@ -1,0 +1,25 @@
+
+#imports
+import = []
+
+shell = "/bin/zsh"
+
+[window]
+opacity = 0.2
+
+title = "Alacritty"
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[selection]
+save_to_clipboard = true
+
+
+[mouse]
+hide_when_typing = true
+
+
+bindings = [
+{ mouse = "Right", mods = "Control", action = "Paste" },
+]
+

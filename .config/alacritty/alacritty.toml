@@ -1,0 +1,21 @@
+import = [
+  "/usr/local/lib/node_modules/alacritty-themes/themes/3024.dark.toml"
+]
+shell = "/bin/zsh"
+
+[window]
+opacity = 0.6
+title = "Alacritty"
+#jdecorations = "Full"
+#decorations_theme_variant = "Dark"
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+
+  [[mouse.bindings]]
+  mouse = "Right"
+  mods = "Control"
+  action = "Paste"
