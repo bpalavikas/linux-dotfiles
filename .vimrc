@@ -1,4 +1,4 @@
-colorscheme habamax 
+colorscheme slate
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -46,6 +46,8 @@ nnoremap <leader><leader>w :wq<CR>
 
 nnoremap <leader>j o<esc>
 nnoremap <leader>k O<esc>
+
+imap jj <esc>
 
 " You can split the window in Vim by typing :split or :vsplit.
 " Navigate the split view easier by pressing CTRL+j, CTRL+k, CTRL+h, or CTRL+l.
